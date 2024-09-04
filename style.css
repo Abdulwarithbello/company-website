@@ -41,6 +41,9 @@ header{
     display: none;
     margin-left: 0;
 }
+span{
+    display: none;
+}
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -52,8 +55,7 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li{
-    margin-right:20px;
-    margin-left: 0;
+    margin:0 20px;
 }
 nav li :hover{
     background-color: gray;
@@ -146,5 +148,8 @@ footer .footer-bottom{
     .fa-solid{
         display: block;
         margin-left: 0;
+    }
+    span{
+        display: block;
     }
 }
