@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    position: relative;
+}
+.logo{
+    font-size: 1.3rem;
+    margin: 20px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav li :hover{
+    background-color: gray;
+}
+#main{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+.started{
+    background-color: hsl(238, 16%, 36%);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#about{
+    padding: 20px;
+    background-color: #fff;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.ab{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+footer div a{
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0 5px;
+}
+footer .footer-bottom{
+    background-color: hsl(238, 16%, 36%);
+    padding: 1rem;
+    text-align: center;
+}
+@media screen and (min-width:0px) and (max-width:600px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 5px 10px;
+        color: #fff;
+        position: relative;
+    }
+    .logo{
+        font-size: .7rem;
+        margin: 10px;
+    }
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    #about{
+        padding: 10px;
+        background-color: #fff;
+    }
+}
