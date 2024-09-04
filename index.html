@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A.P.S - the right place for great products and services in web and architectural design">
     <title>PrimeTECH Solutions Limited</title>
-    <link rel="stylesheet" href="project2.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b276989ce8.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,7 +19,23 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <i class="fa-solid fa-bars"></i>
     </header>
+    <div class="drop">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+      const icon = document.querySelector('.fa-solid')
+      const drop = document.querySelector('.drop')
+      icon.addEventListener('click',function(){
+          drop.style.display='block'
+      })
+  </script>
     <div id="main">
         <section id="home">
             <h1>Welcome to PrimeTECH Solutions Limited - P.T.S</h1>
