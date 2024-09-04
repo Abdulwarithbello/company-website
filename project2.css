@@ -111,4 +111,13 @@ footer .footer-bottom{
         padding: 10px;
         background-color: #fff;
     }
+    .card{
+        display: block;
+    }
+    .ab{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
 }
